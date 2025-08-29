@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABUBU TOURS AND TRAVEL</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <script src="script.js"></script>
+     <nav>
+        <ul>
+           <li> <a href="#home">HOME</a><br></li>
+           <li> <a href="#about">ABOUT US</a> <br></li>
+           <li> <a href="#destination">DESTINATIONS</a><br></li>
+           <li>  <a href="#pricelist">PRICES</a><br></li>
+           <li>  <a href="#registration">REGISTRATION</a></li>
+         </ul>   
+        
+    </nav>
+    <audio src="my-audio.mp3"></audio>
+    <audio controls>
+        <source src="my-audio.mp3" type="audio/mpeg">
+    </audio>
+    <h1><br><center>LABUBU TOURS AND TRAVEL</center></h1>
+    <img src="https://images.pexels.com/photos/1320686/pexels-photo-1320686.jpeg" alt="picture of a holiday destination"width="1000" height="600">
+    <section id="home"> 
+        <h1>HOME</h1> 
+        <p>We are Labubu Tours and TRavels and we make your vactions and travel destinations home away from home</p>
+        <img src="https://images.pexels.com/photos/5852243/pexels-photo-5852243.jpeg" alt="The burj al Arab in Dubai"width="1000" height="600">
+    </section>
+    <section id="about">
+        <h2>ABOUT US</h2>
+        <p>At Labubu Tours, we believe travel is more than just visiting new places — it is about creating memories that last a lifetime. From breathtaking safaris and scenic beach getaways to cultural city tours and adventurous expeditions, we specialize in curating personalized travel experiences that match your dreams. <br>
+
+With a passion for exploration and years of industry expertise, our dedicated team handles every detail — transport, accommodation, activities — so you can focus on enjoying the journey. Whether you are traveling solo, with loved ones, or in <br>a group, we ensure every trip is safe, smooth, and unforgettable.
+
+Let us take you there — your adventure starts here.
+
+<img src="https://images.pexels.com/photos/290386/pexels-photo-290386.jpeg" alt="statue of liberty" width="1000" height="600">
+
+</p>
+    </section>
+    <section id="destination">
+        <h2>HOLIDAY DESTINATIONS</h2>
+        <ul>
+            <div class="container">
+    <div class="list-section">
+         <h3>Africa</h3>
+           <li>Maasai Mara, Kenya</li>
+           <li>Zanzibar, Tanzania</li>
+           <li>Victoria Falls, Zambia/Zimbabwe</li>
+           <li>Cape Town, South Africa</li>
+    
+        </ul>
+    </div>
+     <img src="https://images.pexels.com/photos/631317/pexels-photo-631317.jpeg" alt="africa" width="900" height="600">
+    <div class="list-section">
+      <h3>Europe</h3>
+      <ul>
+        <li>Paris, France</li>
+        <li>Rome, Italy</li>
+        <li>Santorini, Greece</li>
+        <li>Amsterdam, Netherlands</li>
+        <li>Barcelona, Spain</li>
+        </ul>
+    </div>
+    <img src="https://images.pexels.com/photos/27530585/pexels-photo-27530585.jpeg" alt="Rome dome" width="900" height="600">
+    <div class="list-section">
+        <h3>United States Of America</h3>
+    <ul>
+        <li>New York City, USA</li>
+        <li>Cancun, Mexico</li>
+        <li>Rio de Janeiro, Brazil</li>
+        <li>Vancouver, Canada</li>
+        <li>Machu Picchu, Peru</li>
+    </ul>
+    </div>
+    </section>
+    <img src="https://images.pexels.com/photos/20300769/pexels-photo-20300769.jpeg" alt="China architecture" width="900" height="600">
+    <section id="pricelist">
+        <h2>HOTEL AND RESORTS PRICE CATALOGUE</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Hotel/Resort</th> &nbsp; &nbsp;
+                <th>Location</th>&nbsp; &nbsp;
+                <th>Duration of stay</th>&nbsp; &nbsp;
+                <th>Price per night</th>&nbsp; &nbsp;
+                
+            </tr>
+            <tr>
+        <td>Serena Hotel</td>
+        <td>Nairobi, Kenya</td>
+        <td>1-7 nights</td>
+        <td>$150</td>
+    </tr>
+    <tr>
+        <td>Diani Reef Beach Resort</td>
+        <td>Diani, Kenya</td>
+        <td>1-10 nights</td>
+        <td>$120</td>
+    </tr>
+    <tr>
+        <td>Victoria Falls Hotel</td>
+        <td>Victoria Falls</td>
+        <td>2-5 nights</td>
+        <td>$180</td>
+    </tr>
+    <tr>
+        <td>Atlantis The Palm</td>
+        <td>Dubai, UAE</td>
+        <td>1-7 nights</td>
+        <td>$350</td>
+    </tr>
+    <tr>
+         <td>Fairmont Mount Kenya Safari Club</td>
+         <td>Nanyuki, Kenya</td>
+         <td>3-7 nights</td>
+         <td>$220</td>
+  </tr>
+  <tr>
+       <td>Four Seasons Resort</td>
+       <td>Malindi, Kenya</td>
+       <td>2-8 nights</td>
+       <td>$300</td>
+    </tr>
+        </table>
+
+    </section>
+    <section id="registration">
+
+    <h2>Register for Your Personal Travel Agent</h2>
+    <form action="/submit-registration" method="post">
+        <label for="fullname">FULL NAME:</label> <br>
+        <input type="text" id="fullname" name="fullname" placeholder="Your full name" autocomplete="name" required><br><br>
+
+        <label for="email">EMAIL ADDRESS:</label><br>
+        <input type="email" id="email" name="email"  placeholder="kenyanforlife@gmail.com" autocomplete="email" required ><br><br>
+        
+        <label for="tel">CONTACT</label><br>
+        <input type="tel" id="contact" name="contact" placeholder="+254712345678" autocomplete="tel" required><br><br>
+
+        <label for="password">PASSWORD</label><br>
+        <input type="password" id="password" name="password" minlength="8" placeholder="At least 8 characters" required><br><br>
+
+        <label for="confirm password">CONFIRM PASSWORD</label><br>
+        <input type="password" id="confirm password" name="confirm password" minlength="8" placeholder="Re-enter password" required><br><br>
+
+        <label for="travel date">PREFERRED TRAVEL DATE</label><br>
+        <input type="date" id="travel date" name="travel date" placeholder="DD/MM/YY" required><br><br>
+
+        <label for="agent">ASSIGNED TRAVEL AGENT</label><br>
+        <input type="text" id="agent" name="agent" value="Agent Kasongo Muongo" readonly><br><br>
+
+        <label for="comments">ANY COMMENT OR INQUIRY?</label><br>
+
+  <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Any special requests or questions?"></textarea><br><br>
+  <button type="submit">REGISTER</button><br><br><br>
+ </form>
+</section>
+<center>CONTACT US VIA OUR EMAIL: <br> <a href="mailto:labubutours@info.com">labubutours@info.com</a></center><br>
+<center>OR CALL US VIA:<br> <a href="tel:+254759255440">+254759255440</a></center> <br><br><br>
+    </body>
+    <footer style="text-align: center; margin-top: 40px;">
+         <strong><em>We Are Home Away From Home</em></strong><br>
+        &copy; 2025 LABUBU TOURS AND TRAVEL
+    </footer>
+</html>
